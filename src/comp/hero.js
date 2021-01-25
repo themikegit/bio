@@ -17,7 +17,7 @@ export default function Hero() {
         <span> Hello! </span>
         <h1>
           {" "}
-          I'm Miroslav, <br /> UI designer and <br /> junior FE.{" "}
+          I'm Miroslav, <br /> UI designer and <br /> junior developer.{" "}
         </h1>
         <Social>
           <ul>
@@ -32,9 +32,11 @@ export default function Hero() {
               </Icon>{" "}
             </li>
             <li>
-              <Icon>
-                <ImDribbble size={23} />
-              </Icon>{" "}
+              <a href="https://dribbble.com/rostovniki" target="_blank">
+                <Icon>
+                  <ImDribbble size={23} />
+                </Icon>
+              </a>
             </li>
           </ul>
         </Social>

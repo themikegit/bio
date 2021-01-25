@@ -76,3 +76,10 @@ video {
 body {
   background-color: #1b1c33;
 }
+
+a {
+  color: #1ca7f7;
+}
+a:hover {
+  color: #ea4c88;
+}

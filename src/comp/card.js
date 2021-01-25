@@ -1,23 +1,24 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 import { AiFillGithub } from "react-icons/ai"
 import { FiExternalLink } from "react-icons/fi"
 
-export default function Card({ name, description, tags }) {
+export default function Card({ name, description, tags, link, linkGH }) {
   return (
     <CardBody>
       <Title>
         <h4> {name} </h4>
         <ul>
           <li>
-            <Icon>
+            <a href={linkGH} target="_blank">
               <AiFillGithub size={20} />
-            </Icon>
+            </a>
           </li>
           <li>
-            <Icon>
+            <a href={link} target="_blank">
               <FiExternalLink size={20} />
-            </Icon>
+            </a>
           </li>
         </ul>
       </Title>
@@ -48,6 +49,11 @@ const CardBody = styled.div`
   margin: 0.6rem;
   font-family: "Roboto Mono";
   border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #172a45;
+  && :hover {
+    border: 1px solid #1ca7f7;
+  }
 `
 
 const Title = styled.div`
@@ -65,14 +71,6 @@ const Title = styled.div`
 
 const Body = styled.div`
   color: #eee;
-`
-
-const Icon = styled.div`
-  color: #1ca7f7;
-  cursor: pointer;
-  &:hover {
-    color: #ea4c88;
-  }
 `
 
 const Tags = styled.div`
