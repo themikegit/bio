@@ -82,4 +82,5 @@ a {
 }
 a:hover {
   color: #ea4c88;
+  cursor: pointer;
 }

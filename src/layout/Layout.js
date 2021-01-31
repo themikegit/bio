@@ -10,7 +10,7 @@ export default function Layout({ children }) {
   return (
     <Wrap style={effect}>
       {" "}
-      <h3>About</h3> {children}
+  {children}
     </Wrap>
   )
 }
@@ -19,9 +19,5 @@ const Wrap = styled(animated.div)`
   max-width: 900px;
   margin: 0 auto;
   padding: 1rem;
-  h3 {
-    font-family: "Poppins";
-    font-weight: 500;
-    color: white;
-  }
+ 
 `

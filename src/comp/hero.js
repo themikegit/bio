@@ -4,6 +4,7 @@ import { useSpring, animated } from "react-spring"
 import { AiFillGithub } from "react-icons/ai"
 import { ImDribbble } from "react-icons/im"
 import { FaLinkedinIn } from "react-icons/fa"
+import { FiExternalLink } from "react-icons/fi"
 
 export default function Hero() {
   const effect = useSpring({
@@ -17,7 +18,13 @@ export default function Hero() {
         <span> Hello! </span>
         <h1>
           {" "}
-          I'm Miroslav, <br /> UI designer and <br /> junior developer.{" "}
+          I'm Miroslav, <br />{" "}
+          <a href="https://www.brandmik.com">
+            {" "}
+            web designer <FiExternalLink size={40} />{" "}
+          </a>{" "}
+          <br />
+          and web developer.{" "}
         </h1>
         <Social>
           <ul>
@@ -50,14 +57,13 @@ const Slide = styled(animated.div)`
   align-items: center;
   font-family: "Poppins";
   color: white;
-  height: 80vh;
+  height: 60vh;
   h1 {
     font-weight: 600;
     line-height: 1.1;
     font-size: 4em;
   }
   span {
-    color: #1ca7f7;
     font-size: 3rem;
   }
 `

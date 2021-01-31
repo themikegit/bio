@@ -46,7 +46,23 @@ const PROJECTS = [
     linkEXT: "https://loving-lumiere-d678b6.netlify.app/",
     tags: ["react", "material", "wordpress", "netlify", "react-pdf"],
   },
+  {
+    name: "Bookmark",
+    description: "Simple responsive landing page. Booking is a test project",
+    linkGH: "https://github.com/themikegit/material",
+    linkEXT: "https://themikegit.github.io/bookmark/?email=#",
+    tags: ["html", "css", "scss"],
+  },
+  {
+    name: "Fraktal",
+    description: "Simple responsive landing page for a fraktal copmany",
+    linkGH: "https://github.com/themikegit/material",
+    linkEXT: "https://themikegit.github.io/fraktal/#",
+    tags: ["html", "css", "scss"],
+  },
 ]
+
+
 
 export default function CardsGrid() {
   return (
@@ -72,7 +88,8 @@ const Wrap = styled.div`
     font-family: "Poppins";
     font-weight: 700;
     letter-spacing: 0.1rem;
-    color: #1ca7f7 !important;
+    color: white;
+   
   }
 `
 
