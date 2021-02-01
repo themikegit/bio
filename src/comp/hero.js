@@ -17,26 +17,31 @@ export default function Hero() {
       <div>
         <span> Hello! </span>
         <h1>
-          {" "}
+     
           I'm Miroslav, <br />{" "}
           <a href="https://www.brandmik.com">
             {" "}
             web designer <FiExternalLink size={40} />{" "}
           </a>{" "}
           <br />
-          and web developer.{" "}
+          and developer.{" "}
         </h1>
         <Social>
           <ul>
             <li>
-              <Icon>
-                <FaLinkedinIn size={25} />
-              </Icon>
+                <a href="https://www.linkedin.com/in/mkrsmanovicdsg/" target="_blank">
+                  <Icon>
+                    <FaLinkedinIn size={25} /> 
+                    </Icon>
+                    </a>   
             </li>
             <li>
-              <Icon>
-                <AiFillGithub size={25} />
-              </Icon>{" "}
+           
+                <a href="https://github.com/themikegit" target="_blank">
+                  <Icon>
+                    <AiFillGithub size={25} />
+                     </Icon>
+                      </a>
             </li>
             <li>
               <a href="https://dribbble.com/rostovniki" target="_blank">

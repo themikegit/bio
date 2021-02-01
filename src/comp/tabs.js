@@ -14,43 +14,44 @@ export default function Tabs() {
         </Pills>
         <Content>
           <div style = {{ display: pill == "About" ? "block" : "none" }} >
-              <p>I'm Miroslav 30 years old webdesginer from Belgrade. I have stared my carer as a freelance desginer in 2015 in a platform 99desgin.com.
-                  After bunch of contests won I moved to other freelance platforms like freelancer and upwork and many others.<br/> <br/> My specialty was a brand desgin /web desgin.
-                  I have worked with more than 600 clients from all around the world mostly on brand id projects (logos, stationary ...) and webdesgin (wireframing and UI desgin) I moved to UX and UI desgin. That becomes my passion. Thinking about 
-                  how to make process easier for the users to reach their goal but with cool looking interface in same time was very inspiring and chalenging for me.
-
+              <p>Graphic designer with 5+ years of experience in brand id and web design. Skilled at Adobe Creative Suite (Photoshop and Illustrator), Sketch, Figma... Starting my career at 99desgin, Freelancer.com, and then moving to Upwork I had the opportunity to work with more than 600 clients from all parts of the world.
+               <br/> <br/>
+               Since last year my main preoccupation has been FrontEnd development because I always wanted to make my ideas live!:) I'm in process of learning React - loved the idea of component-based architecture!
               </p>
+            
+           
               </div>
           <div style = {{ display: pill == "Education" ? "block" : "none" }} >
           <ul>
                   <li>
-                      <h3>Faculty of security studies</h3>
+                      <h3>Faculty of Security Studies</h3>
                       <h4>2009-2014</h4>
-                      <p> I was always in love with cyber security
+                      <p> Univeristy of Belgrade. Bachelor degree
                       </p>
               
                     </li>
                     <li>
-                      <h3>Vinca technology</h3>
+                      <h3>IT Academy</h3>
                       <h4>2017</h4>
-                      <p>MySQL and PHP course of development. Doing the basis
+                      <p>Web desgin department. Getting familiar with basics principles
+                      </p>
+                  
+                    </li>
+                    <li>
+                      <h3>Computer School Vinca</h3>
+                      <h4>2018</h4>
+                      <p>PHP and MySQL web application development
                       </p>
                 
                     </li>
                     <li>
-                      <h3>Vinca technology</h3>
-                      <h4>2017</h4>
-                      <p>Wordpress development.Creating theme from zero.
-                      </p>
-                  
-                    </li>
-                    <li>
-                      <h3>IT Academy</h3>
+                      <h3>Computer School Vinca</h3>
                       <h4>2018</h4>
-                      <p>Web design module.
+                      <p>Course of WordPress. Theoretical and practical examination
                       </p>
                   
                     </li>
+                
               </ul>
               </div>
           <div style = {{ display: pill == "Experience" ? "block" : "none" }} >
@@ -58,27 +59,24 @@ export default function Tabs() {
                   <li>
                       <h3>Freelancer.com</h3>
                       <h4>2015-2019</h4>
-                      <p>Working as a independent freelancer on a varius projects.
-                          More than 300 clients from USA, CA, AU and other countries
-                          Average profile rating 4.8
+                      <p>
+                        Creating brands for various businesses.
                       </p>
               
                     </li>
                     <li>
                       <h3>UpWork.com</h3>
-                      <h4>2015- present</h4>
-                      <p>Working as a independent freelancer on a varius projects.
-                          More than 300 clients from USA, CA, AU and other countries
-                          Average profile rating 4.8
+                      <h4>2015- 2019</h4>
+                      <p>
+                        Web design and web development. Using WordPress as a primary technology for building simple web sites.
                       </p>
                 
                     </li>
                     <li>
                       <h3>Greco</h3>
-                      <h4>2015- present</h4>
-                      <p>Working as a independent freelancer on a varius projects.
-                          More than 300 clients from USA, CA, AU and other countries
-                          Average profile rating 4.8
+                      <h4>2019- present</h4>
+                      <p>UI/UX designer responsible for creating an intuitive, user-friendly web app.
+                      Developing wireframes and user journeys based on research and testing.
                       </p>
                   
                     </li>

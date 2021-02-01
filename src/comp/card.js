@@ -71,6 +71,8 @@ const Title = styled.div`
 
 const Body = styled.div`
   color: #eee;
+  font-size: 0.8rem;
+  line-height:1.3;
 `
 
 const Tags = styled.div`
