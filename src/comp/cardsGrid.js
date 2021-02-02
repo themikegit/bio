@@ -62,10 +62,10 @@ const PROJECTS = [
   },
   {
     name: "TO-DO app",
-    description: "Everyone starts learing React creating to-do app, I am as well",
+    description: "Like everyone else I also started learning react by creating to-do app :)",
     linkGH: "https://github.com/themikegit/todo_app",
     linkEXT: "https://themikegit.github.io/todo_app/",
-    tags: ["html", "sass"],
+    tags: ["react"],
   },
 ]
 
