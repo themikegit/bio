@@ -14,6 +14,7 @@ export default function Hero() {
   })
   return (
     <Slide style={effect}>
+      
       <div>
         <span> Hello! </span>
         <h1>
