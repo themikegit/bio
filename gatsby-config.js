@@ -8,6 +8,13 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-188921146-2",
+      },
+    },
+    {
       resolve: `gatsby-plugin-styled-components`,
       options: {},
     },
