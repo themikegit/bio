@@ -14,4 +14,5 @@ export default function Resume() {
 const Lnk = styled.div`
    font-family: "Poppins";
    font-size: 1.3em;
+   padding-bottom: 5em;
 `

@@ -92,6 +92,7 @@ const Wrap = styled.div`
   color: white;
   font-family: "Roboto Mono";
   height: 450px;
+  padding-bottom: 2em;
 `
 const Frame = styled.div`
   display: flex;

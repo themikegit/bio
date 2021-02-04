@@ -64,6 +64,7 @@ const Slide = styled(animated.div)`
   font-family: "Poppins";
   color: white;
   height: 60vh;
+  padding-bottom: 4em;
   h1 {
     font-weight: 600;
     line-height: 1.1;
