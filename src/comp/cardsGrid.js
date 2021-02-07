@@ -60,13 +60,7 @@ const PROJECTS = [
     linkEXT: "https://themikegit.github.io/fraktal/#",
     tags: ["html", "sass"],
   },
-  {
-    name: "TO-DO app",
-    description: "Like everyone else I also started learning react by creating to-do app :)",
-    linkGH: "https://github.com/themikegit/todo_app",
-    linkEXT: "https://themikegit.github.io/todo_app/",
-    tags: ["react"],
-  },
+ 
 ]
 
 
