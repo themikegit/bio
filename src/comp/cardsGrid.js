@@ -18,10 +18,10 @@ const PROJECTS = [
     tags: ["react axios"],
   },
   {
-    name: "Recipe website",
-    description: "Built with WP CustomFields and CPT. You can post your recipe through WP. Ability to filter per category and search ",
-    linkGH: "https://github.com/themikegit/food",
-    linkEXT: "#",
+    name: "Crypto Portfolio",
+    description: "Built with Angular11. Search through more than 500 active cryptocurrency. ",
+    linkGH: "#",
+    linkEXT: "https://goofy-jennings-79cb5a.netlify.app/",
     tags: ["react", "WordPress"],
   },
   {
