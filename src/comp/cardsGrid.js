@@ -22,7 +22,7 @@ const PROJECTS = [
     description: "Built with Angular11. Search through more than 500 active cryptocurrency. ",
     linkGH: "#",
     linkEXT: "https://goofy-jennings-79cb5a.netlify.app/",
-    tags: ["react", "WordPress"],
+    tags: ["angular", "coinpaprika"],
   },
   {
     name: "Daily activities",
