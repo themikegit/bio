@@ -16,7 +16,7 @@ export default function Tabs() {
           <div style = {{ display: pill == "About" ? "block" : "none" }} >
               <p>Graphic designer with 5+ years of experience in brand id and web design. Skilled at Adobe Creative Suite (Photoshop and Illustrator), Sketch, Figma... Starting my career at 99desgin, Freelancer.com, and then moving to Upwork I had the opportunity to work with more than 600 clients from all parts of the world.
                <br/> <br/>
-               Since last year my main preoccupation has been FrontEnd development because I always wanted to make my ideas live!:) I'm in process of learning React - loved the idea of component-based architecture!
+               Since last year my main preoccupation has been FrontEnd development because I always wanted to make my ideas live!:) I'm in process of learning Angular!
               </p>
             
            
