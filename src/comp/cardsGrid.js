@@ -10,6 +10,15 @@ const PROJECTS = [
     linkEXT: "https://www.brandmik.com/",
     tags: ["react", "graphql", "gatsby"],
   },
+    {
+    name: "Projects manager",
+    description: "Add project with date reminders, archive and track budgets",
+    linkGH: " https://github.com/themikegit/report_crm",
+    linkEXT: "#",
+    tags: ["angular", "nebular", "firebase"],
+  },
+  
+ 
   {
     name: "Covid metric",
     description: "App that shows latest covid data per country.",
