@@ -29,8 +29,8 @@ const PROJECTS = [
   {
     name: "Crypto Portfolio",
     description: "Built with Angular11. Search through more than 500 active cryptocurrency. ",
-    linkGH: "#",
-    linkEXT: "https://goofy-jennings-79cb5a.netlify.app/",
+    linkGH: "https://github.com/themikegit/crypto",
+    linkEXT: "https://gifted-goldstine-b99969.netlify.app/",
     tags: ["angular", "coinpaprika"],
   },
   {
