@@ -21,7 +21,8 @@ export default function Hero() {
      
           I'm Miroslav.
           <br />
-         Transitioning from UI/UX to FrontEnd developer.
+    <span style =  {{font-size: '1.2em'}} >  Transitioning from UI/UX to FrontEnd developer.</span>
+        
         </h1>
         <Social>
           <ul>
