@@ -19,13 +19,9 @@ export default function Hero() {
         <span> Hello! </span>
         <h1>
      
-          I'm Miroslav, <br />{" "}
-          <a href="https://www.brandmik.com">
-            {" "}
-            web designer <FiExternalLink size={40} />{" "}
-          </a>{" "}
+          I'm Miroslav.
           <br />
-          and developer.{" "}
+         Transitioning from UI/UX to FrontEnd developer.
         </h1>
         <Social>
           <ul>
